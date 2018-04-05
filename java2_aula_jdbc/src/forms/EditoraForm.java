@@ -63,7 +63,7 @@ public class EditoraForm extends javax.swing.JFrame {
 
         jLabel3.setText("Município:");
 
-        Novobt.setText("Novo");
+        Novobt.setText("Limpar");
         Novobt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 NovobtActionPerformed(evt);
@@ -114,7 +114,7 @@ public class EditoraForm extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(0, 181, Short.MAX_VALUE)
+                        .addGap(0, 175, Short.MAX_VALUE)
                         .addComponent(Novobt)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(Salvarbt)

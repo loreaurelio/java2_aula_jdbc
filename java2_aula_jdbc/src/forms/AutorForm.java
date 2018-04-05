@@ -60,7 +60,7 @@ public class AutorForm extends javax.swing.JFrame {
 
         jLabel2.setText("Nome:");
 
-        btNovo.setText("Novo");
+        btNovo.setText("Limpar");
         btNovo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btNovoActionPerformed(evt);
