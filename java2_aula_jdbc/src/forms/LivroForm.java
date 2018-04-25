@@ -403,6 +403,12 @@ public class LivroForm extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(this, ex.getMessage());
             }
         this.mode = "INS";
+            try {
+                livro = livroDAO.findById(livro.getLivro_id());
+                loadTabelaAutores(livro);
+            } catch (Exception ex) {
+                Logger.getLogger(LivroForm.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
     }//GEN-LAST:event_btDelActionPerformed
 
